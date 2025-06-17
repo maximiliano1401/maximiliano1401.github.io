@@ -269,7 +269,7 @@ section p {
 
 .contacto li i {
     font-size: 1.6em;
-    margin-bottom: 0; /* Elimina el margen inferior si lo tenía */
+    margin-bottom: 0;
 }
 
 .contacto li a:hover {
