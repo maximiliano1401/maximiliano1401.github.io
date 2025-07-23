@@ -40,7 +40,9 @@ body {
     font-weight: 400;
 }
 
-p, li, a {
+p,
+li,
+a {
     color: var(--color-principal);
 }
 
@@ -51,6 +53,7 @@ p, li, a {
 a {
     text-decoration: none;
 }
+
 a:hover {
     color: var(--color-hover);
 }
@@ -102,6 +105,7 @@ section p {
 
 .sobremi .habilidades {
     margin-top: 20px;
+    width: 80%;
 }
 
 .sobremi .lista-habilidades {
@@ -314,7 +318,7 @@ section p {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(30,30,30,0.85);
+    background: rgba(30, 30, 30, 0.85);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -334,9 +338,14 @@ section p {
     .contacto {
         max-width: 95vw;
     }
+
     .contacto li {
         font-size: 1em;
         padding: 18px 0 14px 0;
+    }
+
+    .sobremi .habilidades {
+        width: 95%;
     }
 }
 
@@ -347,6 +356,7 @@ section p {
         padding: 30px 10px;
         gap: 20px;
     }
+
     .proyecto-img img {
         width: 100%;
         /* height: 180px; */
